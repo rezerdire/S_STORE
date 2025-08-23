@@ -21,6 +21,7 @@ return [
     ],
 
     'super_admin' => [
+       
         'enabled' => true,
         'name' => 'super_admin',
         'define_via_gate' => false,
@@ -31,6 +32,10 @@ return [
         'enabled' => true,
         'name' => 'panel_user',
     ],
+    
+   
+
+
 
     'permission_prefixes' => [
         'resource' => [
